@@ -1,0 +1,14 @@
+name: data608_hw3
+title: data608_hw3
+username:
+account: hhur0104
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7232184
+bundleId: 6376381
+url: https://hhur0104.shinyapps.io/data608_hw3/
+when: 1665072173.37094
+lastSyncTime: 1665072173.37095
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: exploration.R
