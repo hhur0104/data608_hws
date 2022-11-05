@@ -24,5 +24,13 @@
         <p id='weight'></p>
         <script src="./lib/d3.js"></script>
         <script src="main.js"></script>
+        <script>
+            const node = document.getElementById("name-input");
+            node.addEventListener("keyup", ({key}) => {
+                if (key === "Enter") {
+                    showInfo()
+                }
+            })
+        </script>
     </body>
 </html>
