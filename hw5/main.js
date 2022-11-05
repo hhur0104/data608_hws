@@ -21,6 +21,8 @@ Promise.all([
 
 
 function drawTable() {
+    d3.select("#container").selectAll("table").remove()
+
     const table = d3.select("#container")
       .append("table")
       .style("width","60%")
@@ -38,7 +40,6 @@ function drawTable() {
       .join("tr")
       .attr("class","row")
       .attr("id",row => row.Name)
-
 
     cells = rows.selectAll(".cell")
       .data(row => Object.values(row))
